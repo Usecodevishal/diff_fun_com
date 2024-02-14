@@ -6,6 +6,8 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Blog from "./components/Blog";
 import ChangeTab from "./components/Tab";
+import TodoWrapper from "./components/todocomponents/TodoWrapper";
+import ListSwap from "./components/listSwaping/ListSwap";
 
 //import changeTab from "./components/Tab";
 
@@ -24,7 +26,8 @@ function App() {
 
   return (
 <div>
-
+  {/* <TodoWrapper/> */}
+  <ListSwap/>
 </div>
     
     

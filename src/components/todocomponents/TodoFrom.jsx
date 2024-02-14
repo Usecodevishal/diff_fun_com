@@ -11,7 +11,7 @@ const TodoFrom = ({addTodo}) => {
    }
   return (
     <div>
-        <form>
+        <form onSubmit={handleSubmit}>
             <input type='text' placeholder='Add Todo...' value={value} onChange={(e) => setValue(e.target.value)} />
             <button type='submit'>Add Task</button>
         </form>
